@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Shield, Globe, Monitor, Lock, Eye, Wifi, MapPin, AlertTriangle, Refresh } from 'lucide-react';
+import { Shield, Globe, Monitor, Lock, Eye, Wifi, MapPin, AlertTriangle, RefreshCw } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -187,7 +187,7 @@ const Index = () => {
               <h1 className="text-3xl font-bold gradient-text">IP Location Analyzer</h1>
             </div>
             <Button onClick={refreshData} className="bg-primary hover:bg-primary/90 text-white">
-              <Refresh className="h-4 w-4 mr-2" />
+              <RefreshCw className="h-4 w-4 mr-2" />
               Refresh Data
             </Button>
           </div>
